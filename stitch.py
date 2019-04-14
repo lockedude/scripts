@@ -9,7 +9,6 @@ from scipy.spatial import distance
 
 def parse_args():
 
-    # Argument parser (taken from the first project, thanks!)
     parser = argparse.ArgumentParser(description="image stitching project")
     parser.add_argument(
         "--dir_path", type=str, default="",
